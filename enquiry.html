@@ -1,0 +1,561 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name='copyright' content=''>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Enquiry | Vidyasharada Academy</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icofont.css">
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <style>
+        .custom-form {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 40px;
+            max-width: 1110px;
+            background-image: url(/img/graphics/enquiry-graphic.svg);
+            background-repeat: no-repeat;
+            background-position: 80% 20%;
+            background-size: 60%;
+            margin: 40px auto;
+        }
+
+        .single-info {
+            display: flex;
+            gap: 4px;
+            margin-bottom: 12px;
+        }
+
+        .custom-form>section {
+            width: 100%;
+            padding-top: 0;
+        }
+
+        .contact-info h3 {
+            font-size: 16px;
+        }
+
+        .contact-info {
+            padding: 20px;
+            margin: 40px 0;
+        }
+
+        .successMessage {
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: none;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.225);
+            justify-content: center;
+            z-index: 555;
+        }
+
+        .successMessage .wrapper {
+            position: relative;
+            top: 10%;
+            border-radius: 20px;
+            background-color: #fff;
+            padding: 20px;
+            max-width: 600px;
+            width: auto;
+            height: max-content;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .successMessage button {
+            width: 200px;
+            padding: 8px 12px;
+            border-radius: 28px;
+            background-color: var(--sbprimary);
+            color: #fff;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        input,
+        textarea {
+            max-width: 410px;
+            width: 100%;
+        }
+
+        form {
+            margin: 20px auto;
+        }
+
+        .overlay::before {
+            background-image: url(/img/graphics/enquiry.png);
+            background-position: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .breadcrumbs+section {
+            margin-top: 40px;
+            padding-top: 40px;
+        }
+
+        .breadcrumbs {
+            border-bottom: 2px solid var(--sbprimary);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <img src="img/logo.png" alt="client logo">
+        </div>
+    </div>
+    <!-- Header Area -->
+    <header class="header">
+        <!-- Topbar -->
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-7 col-12">
+                        <!-- Top Contact -->
+                        <ul class="top-contact">
+                            <span>Secretary</span>
+                            <li class="underline"><i class="fa fa-phone"></i><a href="tel:">+91 8147121649</a></li>
+                            <span>Admission officers</span>
+                            <li><i class="fa fa-phone"></i><a href="tel:">+91 9535197415</a></li>
+                            <li class="underline"><i class="fa fa-phone"></i><a href="tel:">+91 6366624416</a></li>
+                            <span>Email us</span>
+                            <li class="underline email"><i class="fa fa-envelope"></i><a
+                                    href="mailto: vidyasharadaacademymoodabidire@gmail.com">
+                                    vidyasharadaacademymoodabidire@gmail.com</a></li>
+                        </ul>
+                        <!-- End Top Contact -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Topbar -->
+        <!-- Header Inner -->
+        <div class="header-inner">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-12 mobile-design-header">
+                            <!-- Start Logo -->
+                            <div class="logo">
+                                <a href="/"><img src="img/logo.png" alt="#"></a>
+                            </div>
+                            <!-- End Logo -->
+                            <h1 style="font-size: 18px;"><span style="font-size: 28px; font-weight:700">VIDYASHARADA</span><br> ACADEMY MOODABIDIRE</h1>
+                            <!-- Mobile Nav -->
+                            <div class="mobile-nav"></div>
+                            <!-- End Mobile Nav -->
+                        </div>
+                        <div class="col-lg-7 col-md-9 col-12">
+                            <!-- Main Menu -->
+                            <div class="main-menu">
+                                <nav class="navigation">
+                                    <ul class="nav menu">
+                                        <!-- <li class="active"><a href="#">About us <i class="icofont-rounded-down"></i></a>
+                                            <ul class="dropdown">
+                                                <li><a href="index.html">Home Page 1</a></li>
+                                            </ul>
+                                        </li> -->
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/our-programs">Our programs</a></li>
+                                        <li><a href="/our-team">Our Team</a></li>
+                                        <li><a href="/enquiry">Enquiry</a></li>
+                                        <li><a href="/gallery">Gallery</a></li>
+
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!--/ End Main Menu -->
+                        </div>
+                        <div class="col-lg-2 col-12">
+                            <div class="get-quote">
+                                <a href="/enquiry" class="btn">Enquiry</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Header Inner -->
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs overlay">
+        <div class="container">
+            <div class="bread-inner">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Enquiry</h2>
+                        <ul class="bread-list">
+                            <li><a href="index.html">Home</a></li>
+                            <li><i class="icofont-simple-right"></i></li>
+                            <li class="active">Enquiry</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+    <div class="successMessage">
+        <div class="wrapper">
+            <h4>Message here</h4>
+            <button onclick="location.reload()">ok</button>
+        </div>
+    </div>
+    <!-- PUC Form -->
+    <section class="no-anim">
+        <div class="custom-form">
+            <section class="contact-us section no-anim" id="neet-form">
+                <div class="container">
+                    <div class="inner">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="contact-us-form">
+                                    <div class="select-form" style="display: flex; gap:40px">
+                                        <div>
+                                            <!-- <input type="checkbox" id="check-puc" name="ppuu" checked> -->
+                                            <input type="checkbox" id="check-puc" name="puc" checked>
+                                            <label for="ppuu">For PUC</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" id="check-neet" name="neet">
+                                            <label for="nnee">For NEET</label>
+                                        </div>
+                                    </div>
+                                    <h2>Enquire About PUC Admissions</h2>
+                                    <h5 style="margin: 20px 0;">Discover How Our Comprehensive Program Can Boost Your
+                                        Success!</h5>
+                                    <strong>All fields required !</strong>
+                                    <!-- Form -->
+                                    <form>
+                                        <input id="sheetNameID" type="hidden" name="sheetName" value="pucForm" />
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="student-name" placeholder="Student Name"
+                                                        required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="father-name" placeholder="Father name"
+                                                        required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="mother-name" placeholder="Mother name"
+                                                        required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="college-name" id="institutePlace"
+                                                        placeholder="school name" required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="board" placeholder="Board" required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="address" placeholder="Address" required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="phone-number" placeholder="Phone"
+                                                        required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="alternative-phonenumber"
+                                                        placeholder=" Alternative Phone" required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="email" name="email" placeholder="Email" required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <textarea name="    " placeholder="Your Message"
+                                                        required=""></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group login-btn">
+                                                    <button class="btn" type="submit">Send</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <!--/ End Form -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script>
+
+                const chkBoxes = document.querySelectorAll('.select-form input');
+                const targetElement = document.querySelector('#institutePlace');
+                chkBoxes[0].addEventListener('change', (e) => {
+                    if (e.target.checked === true) {
+                        targetElement.className = 'sslc-school-name';
+                        targetElement.name = 'sslc-school-name';
+                        targetElement.placeholder = 'School name';
+                    }
+                });
+                chkBoxes[1].addEventListener('change', (e) => {
+                    if (e.target.checked === true) {
+                        targetElement.className = 'college-name';
+                        targetElement.name = 'college-name';
+                        targetElement.placeholder = 'College name';
+                    }
+                });
+
+                function checks() {
+                    let chkBoxesc = document.querySelectorAll('.select-form input');
+                    if (location.href.includes('neet-form')) {
+                        targetElement.className = 'college-name';
+                        targetElement.name = 'college-name';
+                        targetElement.placeholder = 'College name';
+                    }
+                    else {
+                        targetElement.className = 'sslc-school-name';
+                        targetElement.name = 'sslc-school-name';
+                        targetElement.placeholder = 'School name';
+                    }
+                }
+                checks();
+                const endpoint = 'https://script.google.com/macros/s/AKfycbzfd8YrOnOgSW2WZ-wEE791hj5hfDF1957b3FB957EMhbmG8qAT8nnzV3mUaKiKYYFH1A/exec';
+                document.querySelector('form').addEventListener('submit', (e) => {
+                    e.preventDefault();
+
+                    document.querySelector('form button').disabled = true;
+                    const formSelect = document.querySelectorAll('.select-form input');
+                    const sheetIs = formSelect[0].checked ? 'pucForm' : 'neetForm';
+                    document.getElementById('sheetNameID').value = sheetIs;
+                    const form = event.target;
+                    const formData = new FormData(form);
+                    const searchParams = new URLSearchParams();
+                    formData.forEach((value, key) => {
+                        searchParams.append(key, value);
+                    });
+                    fetch(endpoint, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                        body: searchParams,
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+                            document.querySelector('.successMessage h4').textContent = 'Application sent successfully, We will contact you soon.'
+                            document.querySelector('.successMessage').style.display = 'flex';
+                        })
+                        .catch(error => {
+                            document.querySelector('.successMessage h4').textContent = 'Application not sent! Please try again.'
+                            document.querySelector('.successMessage').style.display = 'flex';
+                        });
+                })
+                const studentFrom = document.querySelector('.contact-us-form');
+                const checkBoxes = studentFrom.querySelectorAll('.select-form input');
+                const texts = ['Enquire About PUC Admissions', 'Enquire About NEET Long-Term Coaching']
+                checkBoxes.forEach(check => {
+                    check.addEventListener('change', () => {
+                        if (checkBoxes[0] == check && checkBoxes[1].checked == true) {
+                            checkBoxes[1].checked = false;
+                            studentFrom.querySelector('h2').textContent = texts[0]
+                        } else {
+                            checkBoxes[0].checked = false;
+                            checkBoxes[1].checked = true;
+                            studentFrom.querySelector('h2').textContent = texts[1]
+                        }
+                    });
+                });
+                const loc = location.href;
+                console.log(loc);
+                if (loc.includes('neet')) {
+                    checkBoxes[0].checked = false;
+                    checkBoxes[1].checked = true;
+                    studentFrom.querySelector('h2').textContent = texts[1]
+                }
+            </script>
+            <section>
+                <div class="location">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3178.503140963583!2d75.28842399999999!3d16.467402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDI4JzAyLjciTiA3NcKwMTcnMTguMyJF!5e1!3m2!1sen!2sin!4v1733396000523!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-info">
+                    <div class="row">
+                        <!-- single-info -->
+                        <div class="col-lg-4 col-12 ">
+                            <div class="single-info">
+                                <i class="icofont icofont-ui-call"></i>
+                                <div class="content">
+                                    <h3>+91 8147121649</h3>
+                                    <h3>+91 9535197415</h3>
+                                    <h3>+91 6366624416</h3>
+                                    <p>vidyasharadaacademymoodabidire@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/End single-info -->
+                        <!-- single-info -->
+                        <div class="col-lg-4 col-12 ">
+                            <div class="single-info">
+                                <i class="icofont-google-map"></i>
+                                <div class="content">
+                                    <h3>vidyasharada college</h3>
+                                    <p>moodabidire</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/End single-info -->
+                        <!-- single-info -->
+                        <div class="col-lg-4 col-12 ">
+                            <div class="single-info">
+                                <i class="icofont icofont-wall-clock"></i>
+                                <div class="content">
+                                    <h3>Mon - Sat: 8am - 5pm</h3>
+                                    <p>Sunday Closed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/End single-info -->
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!-- Footer Area -->
+    <footer id="footer" class="footer ">
+        <!-- Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-footer">
+                            <h2>About Us</h2>
+                            <p> Vidyasharada Academy, moodabidire (R).</p>
+                            <!-- Social -->
+                            <ul class="social">
+                                <li><a target="_blank"
+                                        href="https://www.facebook.com/Vidyasharadaacademy/?rdid=fswcPxab1ho4N3gO"><i
+                                            class="icofont-facebook"></i></a></li>
+                                <li><a target="_blank"
+                                        href="https://www.instagram.com/vidyasharada_academy/profilecard/?igsh=YTJnbHRrajdoczI%3D"><i
+                                            class="icofont-instagram"></i></a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/watch?v=BZe_a3qLeUw"><i
+                                            class="icofont-youtube"></i></a></li>
+                            </ul>
+                            <!-- End Social -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-footer f-link">
+                            <h2>Quick Links</h2>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <ul>
+                                        <li><a href="/"><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a>
+                                        </li>
+                                        <li><a href="/our-programs"><i class="fa fa-caret-right"
+                                                    aria-hidden="true"></i>Our programs</a></li>
+                                        <li><a href="/our-team"><i class="fa fa-caret-right" aria-hidden="true"></i>Our
+                                                team</a></li>
+                                        <li><a href="/enquiry"><i class="fa fa-caret-right"
+                                                    aria-hidden="true"></i>Enquiry</a></li>
+                                        <li><a href="/gallery"><i class="fa fa-caret-right"
+                                                    aria-hidden="true"></i>Gallery</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-footer">
+                            <h2>Open Hours</h2>
+                            <ul class="time-sidual">
+                                <li class="day">Monday - Friday <span>9:00 AM - 5:00 PM</span></li>
+                                <li class="day">Saturday <span>8:00 AM - 3:00 PM</span></li>
+                                <li class="day">Sunday <span>Holiday</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Top -->
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <div class="copyright-content">
+                            <p>Copyright©<span id="cpyrytinfr"></span> Vidyasharada academy, All Rights Reserved.
+                                Powered by Softbros <img src="/img/vibe/logo.png" alt="Softbros" width="15px"
+                                    style="margin-bottom: 6px;"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                document.getElementById('cpyrytinfr').textContent = new Date().getFullYear()
+            </script>
+        </div>
+        <!--/ End Copyright -->
+    </footer>
+    <!--/ End Footer Area -->
+    <!-- jquery Min JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/slicknav.min.js"></script>
+    <script src="js/owl-carousel.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
